@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Tic-Tac-Toe game</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="container2">
+            <h1 id="tictactoeheading">Welcome To the Game Of Tic-Tac-Toe</h1>
+            <div class="container3">
+                <p>Player X is : <%=PlayersName1%></p> 
+                <p>Player 0 is : <%=PlayersName2%></p>
+            </div>
+            <h2 id="h2-1">Game starts just by tap on box</h2>
+
+            <div class="boxess">
+            <div class="boxes">
+                <input type="text" class="box" id="b1" onclick="myfunc_3();myfunc();  " readonly>
+                <input type="text" class="box" id="b2" onclick="myfunc_4();myfunc(); " readonly>
+                <input type="text" class="box" id="b3" onclick="myfunc_5();myfunc(); " readonly><br>
+                <input type="text" class="box" id="b4" onclick="myfunc_6();myfunc(); " readonly>
+                <input type="text" class="box" id="b5" onclick="myfunc_7();myfunc(); " readonly>
+                <input type="text" class="box" id="b6" onclick="myfunc_8();myfunc(); " readonly><br>
+                <input type="text" class="box" id="b7" onclick="myfunc_9();myfunc(); " readonly>
+                <input type="text" class="box" id="b8" onclick="myfunc_10();myfunc(); " readonly>
+                <input type="text" class="box" id="b9" onclick="myfunc_11();myfunc(); " readonly>
+
+
+                <br>
+            </div>
+            <h1 id="won"></h1>
+            <div class="buttonclass">
+                <button class="btn" onclick="myfunc_2();">Reset</button>
+            </div>
+            </div>
+
+
+        </div>
+    </div>
+    <script src="js/index.js"></script>
+
+</body>
+
+</html>

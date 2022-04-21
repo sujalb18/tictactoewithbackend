@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Mono&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#tictactoeheading{
+    margin-top: 40px;
+    background-color: aquamarine;
+    color: rgb(0, 110, 73);
+    font-family: 'Fira Mono', monospace;
+    text-align: center;
+    padding: 15px;
+    border-radius: 10px;
+
+}
+
+.container{
+    display: flex;
+    width: 98vw;
+    height: 100vh;
+    /* border: 2px solid black; */
+    /* align-items: center; */
+    justify-content: center;
+}
+
+#h2-1{
+    margin-top: 20px;
+    text-align: center;
+    font-family: 'Fira Mono', monospace;
+    color: rgb(114, 69, 10);
+}
+#h2-2{
+    text-align: center;
+}
+
+
+.container2{
+    width: 50vw;
+    height: 92vh;
+    /* border: 2px solid black; */
+}
+
+.box{
+    width: 100px;
+    height: 90px;
+    font-size: 32px;
+    margin: auto;
+}
+
+
+
+.boxes input{
+    color: rgb(0, 122, 24);
+    text-align: center;
+}
+
+.boxes input:hover{
+    cursor: pointer;
+}
+
+#won{
+    margin-top: 23px;
+    color: green; 
+    font-family: 'Fira Mono', monospace;
+
+}
+
+.boxess{
+    display: flex;
+    align-items: center;
+    width: 50vw;
+    height: 60vh;
+    margin-top: 100px;
+    /* border: 2px solid black; */
+    flex-direction: column;
+}
+
+.buttonclass{
+    margin-top: 40px;
+}
+
+.buttonclass button{
+    padding: 7px;
+    width: 100px;
+    border-radius: 10px;
+    border: none;
+    
+    background-color: rgb(0, 110, 73);
+    color: aquamarine;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.buttonclass button:hover{
+    background-color: aquamarine;
+    color: rgb(0, 110, 73);
+}
+
+.buttonclass button:active{
+    background-color: rgb(0, 110, 73);
+    color: aquamarine
+}
+.container3{
+    width: 50vw;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    font-family: 'Fira Mono', monospace;
+    color: rgb(0, 110, 73);
+    font-size: 1.2rem;
+    font-weight: bold;
+
+}
+
+@media screen and (max-width: 975px) {
+    .container2{
+        width: 87vw;
+    }
+
+    .container3{
+        width: 87vw;
+    }
+
+    .boxess{
+        width: 87vw;
+    }
+}
+
+@media screen and (max-width: 488px) {
+    #tictactoeheading{
+        font-size: 1rem;
+    }
+    .container3{
+        font-size: 0.8rem;
+    }
+}
+
+@media screen and (max-width: 632px){
+    .box{
+        width: 60px;
+        height: 50px;
+    }
+    .container3{
+        font-size: 0.8rem;
+    }
+    #won{
+        font-size: 0.8rem;
+    }
+}
+@media screen and (max-width: 378px){
+    .container2{
+        width: 87vw;
+    }
+
+    .boxess{
+        width: 87vw;
+        margin-top: 15px;
+    }
+    .container3{
+        font-size: 0.8rem;
+    }
+    #won{
+        font-size: 0.8rem;
+    }
+}
+
+@media screen and (max-width: 220px) {
+    .boxess{
+        width: 89vw;
+        margin-top: 25px;
+    }
+    .container3{
+        font-size: 0.8rem;
+    }
+    #won{
+        font-size: 0.8rem;
+    }
+}
+@media screen and (max-width: 208px) {
+    .boxess{
+        width: 92vw;
+        margin-top: 25px;
+    }
+
+    .container3{
+        font-size: 0.8rem;
+    }
+    #won{
+        font-size: 0.8rem;
+    }
+}
+
+
+
